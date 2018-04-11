@@ -35,7 +35,7 @@ app.use(session({
     saveUninitialized: false,
     store: sessionStore,
     cookie: {maxAge: 604800800},
-    // cookie: {secure:true} if https uncomment this
+    cookie: {secure:true}
 }));
 app.use(passport.initialize());
 app.use(passport.session());
