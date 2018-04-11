@@ -30,12 +30,12 @@ app.use(expressValidator());
 const sessionStore = new MySQLStore(credentials);
 
 app.use(session({
-    secret: 'surfsUp',
+    secret: 'SurfsUp',
     resave: false,
     saveUninitialized: false,
     store: sessionStore,
     cookie: {maxAge: 604800800},
-    // cookie: {secure:true} if https uncomment this
+    cookie: {secure:true},
 }));
 app.use(passport.initialize());
 app.use(passport.session());
@@ -80,7 +80,7 @@ passport.deserializeUser(function (id, done) {
     let inserts = [id];
     db.query(sql, inserts,
         function (err, results, fields) {
-            done(err, [results[0].id, results[0].username])
+            done(null, [results[0].id, results[0].username])
         }
     );
 });
