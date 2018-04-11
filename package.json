@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fedrius/c12.17Hackathon2.git"
+    "url": "git+https://github.com/wrongeric/Surfs-Up.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Fedrius/c12.17Hackathon2/issues"
+    "url": "https://github.com/wrongeric/Surfs-Up/issues"
   },
-  "homepage": "https://github.com/Fedrius/c12.17Hackathon2#readme",
+  "homepage": "https://github.com/wrongeric/Surfs-Up",
   "dependencies": {
     "bcrypt": "^1.0.3",
     "bcrypt-nodejs": "0.0.3",
