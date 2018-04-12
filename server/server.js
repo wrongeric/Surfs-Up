@@ -18,6 +18,7 @@ const MySQLStore = require('express-mysql-session')(session);
 
 const credentials = require('./credentials.js');
 const app = express();
+app.set('trust proxy', 1); // trust first proxy
 const db = mysql.createConnection(credentials);
 
 app.use(morgan('dev'));
@@ -30,12 +31,12 @@ app.use(expressValidator());
 const sessionStore = new MySQLStore(credentials);
 
 app.use(session({
-    secret: 'SurfsUp',
+    secret: 'surfsUp',
     resave: false,
     saveUninitialized: false,
     store: sessionStore,
     cookie: {maxAge: 604800800},
-    cookie: {secure:true},
+    // cookie: {secure:true},
 }));
 app.use(passport.initialize());
 app.use(passport.session());
