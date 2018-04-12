@@ -753,7 +753,7 @@ h2 {
 
 
 /*Media Queries*/
-@media screen and  (max-width: 300px){
+@media screen and  (max-width: 319px){
     /*Title Page*/
     .muteButton, .titleMuteButton, .signUpBtn, .signOutBtn{
         font-size: 3vmin;
@@ -797,65 +797,63 @@ h2 {
     .headerContainer{
         height: 20%;
     }
-
     .sunriseTitle, .sunriseTime{
-        font-size: 5.2vmin;
+        font-size: 4.5vmin;
     }
 
     .sunsetTitle, .sunsetTime{
-        font-size: 5.2vmin;
+        font-size: 4.5vmin;
     }
 
     .beachName{
-        font-size: 6vmin;
+        font-size: 5vmin;
     }
 
     .beachLocation{
         font-size: 4.5vmin;
     }
 
-    .newSearchContainer{
-        display: block;
-    }
-
-    .newSearchButton{
-        font-size: 3.5vmin;
-        padding: 8px;
-        background-color: black;
-        opacity: .15;
-        color: white;
-    }
     .weatherInfoContainer {
-        height: 20%;
+        height: 16%;
     }
     .tempBox{
         width: 16%;
-        height: 75%;
+        height: 85%;
     }
 
     .tempTime{
-        font-size: 4.4vmin;
+        font-size: 3.4vmin;
     }
 
     .tempPic{
-        width: 90%;
+        width: 80%;
+        height: 50%;
     }
 
     .tempTemp{
-        font-size: 4.4vmin;
+        font-size: 3.4vmin;
     }
 
     .infoContainer{
         flex-direction: column;
-        height: 60%;
+        height: 64%;
     }
 
     .tideInfoContainer{
         width: 90%;
     }
 
+    .tideInfoHeader {
+        margin-bottom: 1%;
+        font-size: 4vmin;
+    }
+
+    .tideInfoCategories, .tideInfoData {
+        padding-bottom: 2%;
+    }
+
     .pictureInfoContainer{
-        height: 65%;
+        height: 60%;
         width: 90%;
     }
 
@@ -1010,8 +1008,6 @@ h2 {
         pointer-events: none;
     }
 }
-
-
 
 @media screen and (max-width: 416px) and (min-height: 700px){
     .flyOff{
