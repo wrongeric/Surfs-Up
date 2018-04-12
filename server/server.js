@@ -19,7 +19,11 @@ const MySQLStore = require('express-mysql-session')(session);
 const credentials = require('./credentials.js');
 const app = express();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+app.set('trust proxy', 1); // trust first proxy
+>>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
 =======
 app.set('trust proxy', 1); // trust first proxy
 >>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
@@ -41,7 +45,11 @@ app.use(session({
     store: sessionStore,
     cookie: {maxAge: 604800800},
 <<<<<<< HEAD
+<<<<<<< HEAD
    // cookie: {secure: true}
+=======
+    // cookie: {secure:true},
+>>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
 =======
     // cookie: {secure:true},
 >>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be

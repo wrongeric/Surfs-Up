@@ -15,11 +15,8 @@
   "bugs": {
     "url": "https://github.com/wrongeric/Surfs-Up/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/wrongeric/Surfs-Up#readme",
-=======
   "homepage": "https://github.com/wrongeric/Surfs-Up",
->>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
   "dependencies": {
     "bcrypt": "^1.0.3",
     "bcrypt-nodejs": "0.0.3",

@@ -912,9 +912,15 @@ h2 {
 
     /***Search Page/Main Page***/
 <<<<<<< HEAD
+<<<<<<< HEAD
      .muteButton, .titleMuteButton, .signUpBtn, .signOutBtn {
         font-size: 5vmin;
     }   
+=======
+    .muteButton, .titleMuteButton, .signUpBtn, .signOutBtn {
+        font-size: 5vmin;
+    }
+>>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
 =======
     .muteButton, .titleMuteButton, .signUpBtn, .signOutBtn {
         font-size: 5vmin;
@@ -925,6 +931,10 @@ h2 {
         left: 25%;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
 =======
 
 >>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
@@ -944,6 +954,10 @@ h2 {
         right: 10%;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
 =======
 
 >>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
@@ -977,7 +991,11 @@ h2 {
     .tempBox{
         width: 16%;
 <<<<<<< HEAD
+<<<<<<< HEAD
         height: 70%;
+=======
+        height: 85%;
+>>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
 =======
         height: 85%;
 >>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
