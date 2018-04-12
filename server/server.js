@@ -18,6 +18,7 @@ const MySQLStore = require('express-mysql-session')(session);
 
 const credentials = require('./credentials.js');
 const app = express();
+
 const db = mysql.createConnection(credentials);
 
 app.use(morgan('dev'));
@@ -35,7 +36,7 @@ app.use(session({
     saveUninitialized: false,
     store: sessionStore,
     cookie: {maxAge: 604800800},
-    cookie: {secure:true}
+   // cookie: {secure: true}
 }));
 app.use(passport.initialize());
 app.use(passport.session());
