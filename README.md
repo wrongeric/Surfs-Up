@@ -11,4 +11,7 @@ The project began as a 48 hour Hackathon but evolved into a fully functional and
 * Fully mobile responsive Layout and Design
 
 * User Authentication and Login via Passport and MYSQL Database
+<<<<<<< HEAD
 
+=======
+>>>>>>> c9d1b8a44932e959dd64cbc6107ca803424583be
