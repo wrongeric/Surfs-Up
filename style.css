@@ -753,7 +753,7 @@ h2 {
 
 
 /*Media Queries*/
-@media screen and  (max-width: 319px){
+@media screen and  (max-width: 320px){
     /*Title Page*/
     .muteButton, .titleMuteButton, .signUpBtn, .signOutBtn{
         font-size: 3vmin;
