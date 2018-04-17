@@ -151,7 +151,7 @@
     z-index: 900;
     visibility: hidden;
 }
-                                    /*ENTIRE PAGE HERE */
+/*ENTIRE PAGE HERE */
 .mainPageContainer{
     position: absolute;
     height: 100vh;
@@ -396,8 +396,11 @@ h2 {
 }
 .tempBox {
     /*border: 1px solid black;*/
-    height: 88%;
-    width: 9%;
+
+    /* height: 88%;
+    width: 9%; */
+    height: 80%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -434,8 +437,6 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 68%;
-    flex-direction: row;
-
 }
 .tideInfoContainer {
     /*border: 1px solid black;*/
@@ -572,7 +573,7 @@ h2 {
     align-items:flex-end;
     background:  no-repeat center; /*url(./images/surferBg0.jpg)*/
     background-size: cover;
-    margin: 10% auto; 
+    margin: 10% auto;
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
@@ -659,7 +660,7 @@ h2 {
 }
 .muteButton{
     position: relative;
-    /*width: 2.5%;*/
+    /* width: 2.5%; */
     height: 2.5%;
     color: seashell;
     font-size: 3vmin;
@@ -677,8 +678,8 @@ h2 {
 }
 .titleMuteButton{
     position: absolute;
-    /*width: 2.5%;*/
-    /*height: 2.5%;*/
+    /* width: 2.5%;
+    height: 2.5%; */
     color: lightskyblue;
     font-size: 4vmin;
     text-align: center;
@@ -775,20 +776,20 @@ h2 {
         width: 60%;
     }
     .flyOff{
-    position: absolute;
-    left: 10%;
-    /* top: 47%; */
-    width: 90%;
-    height: 20%;
-    /* background-image: url("images/surfsup.gif"); */
-    background-repeat: no-repeat;
-    background-size: contain ;
-    animation-name: fadeOutShrink;
-    animation-duration: 1.3s;
-    transition-timing-function: ease-out;
-    z-index: 900;
-    visibility: hidden;
-}
+        position: absolute;
+        left: 10%;
+        /* top: 47%; */
+        width: 90%;
+        height: 20%;
+        /* background-image: url("images/surfsup.gif"); */
+        background-repeat: no-repeat;
+        background-size: contain ;
+        animation-name: fadeOutShrink;
+        animation-duration: 1.3s;
+        transition-timing-function: ease-out;
+        z-index: 900;
+        visibility: hidden;
+    }
     /*Search Page/Main Page*/
 
     /*Data Results Page*/
@@ -799,63 +800,66 @@ h2 {
     .headerContainer{
         height: 20%;
     }
+
     .sunriseTitle, .sunriseTime{
-        font-size: 4.5vmin;
+        font-size: 5.2vmin;
     }
 
     .sunsetTitle, .sunsetTime{
-        font-size: 4.5vmin;
+        font-size: 5.2vmin;
     }
 
     .beachName{
-        font-size: 5vmin;
+        font-size: 6vmin;
     }
 
     .beachLocation{
         font-size: 4.5vmin;
     }
 
+    .newSearchContainer{
+        display: block;
+    }
+
+    .newSearchButton{
+        font-size: 3.5vmin;
+        padding: 8px;
+        background-color: black;
+        opacity: .15;
+        color: white;
+    }
     .weatherInfoContainer {
-        height: 16%;
+        height: 20%;
     }
     .tempBox{
         width: 16%;
-        height: 85%;
+        height: 75%;
     }
 
     .tempTime{
-        font-size: 3.4vmin;
+        font-size: 4.4vmin;
     }
 
     .tempPic{
-        width: 80%;
-        height: 50%;
+        width: 90%;
     }
 
     .tempTemp{
-        font-size: 3.4vmin;
+        font-size: 4.4vmin;
     }
 
     .infoContainer{
         flex-direction: column;
-        height: 64%;
+        height: 60%;
     }
 
     .tideInfoContainer{
         width: 90%;
-    }
-
-    .tideInfoHeader {
-        margin-bottom: 1%;
-        font-size: 4vmin;
-    }
-
-    .tideInfoCategories, .tideInfoData {
-        padding-bottom: 2%;
+        height: 35%;
     }
 
     .pictureInfoContainer{
-        height: 60%;
+        height: 65%;
         width: 90%;
     }
 
@@ -1061,7 +1065,7 @@ h2 {
     }
 }
 
-    
+
 @media screen and (min-width: 415px) and (max-width: 599px) {
     /*Title Page*/
     .muteButton, .titleMuteButton, .signUpBtn, .signOutBtn{
@@ -1141,7 +1145,8 @@ h2 {
     }
 
     .tempPic{
-        width: 70%;
+        width: 80%;
+        height: 45%;
     }
 
     .tempTemp{
@@ -1242,7 +1247,7 @@ h2 {
     }
 
     .tempPic{
-        width: 75%;
+        width: 60%;
     }
 
     .sunrise, .sunset{
@@ -1275,7 +1280,7 @@ h2 {
     .tempPicImage{
         width: 47%;
     }
-     h1 {
+    h1 {
         font-size: 4vmin;
     }
 
@@ -1290,11 +1295,11 @@ h2 {
 }
 @media screen and (min-width: 280px) and (max-width: 667px) and (orientation: landscape) {
     /*h2{*/
-        /*margin-bottom: 3px;*/
+    /*margin-bottom: 3px;*/
     /*}*/
     .searchHistory{
-        /*height: 0px;*/
-        margin-top: 3%;
+        /* height: 0px; */
+        margin-top:3%;
     }
     .searchPageContent{
         max-width: 60%;
@@ -1353,12 +1358,115 @@ h2 {
 
 }
 
+
+
+
 @media screen and (min-width: 601px) and (max-width: 1024px) and (orientation: landscape) {
     .tideInfoCategories, .tideInfoData {
         font-size: 3vmin;
     }
+}
+
+@media screen and (min-width: 748px) and (max-width: 1024px) and (orientation: landscape) {
+    .tempPicImage{
+        width: 65%;
+    }
+}
+
+@media only screen and (min-device-width : 340px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3) {
+    .searchHistory{
+        /* height: 0px; */
+        margin-top: 3%;
+    }
+    .searchPageContent{
+        max-width: 60%;
+        margin-bottom: 0%;
+    }
+
+    .titleLogo{
+        width: 42%;
+        margin-left: 3%;
+    }
+    .flyOff{
+        position: absolute;
+        left: 23%;
+        top: 30%;
+        width: 50%;
+        height: 55%;
+        background-repeat: no-repeat;
+        background-size: contain ;
+        animation-name: fadeOutShrink;
+        animation-duration: 1.3s;
+        transition-timing-function: ease-out;
+        z-index: 900;
+        visibility: hidden;
+    }
+
+    .sunriseTitle, .sunriseTime{
+        font-size: 2.5vmin;
+    }
+
+    .sunsetTitle, .sunsetTime{
+        font-size: 2.5vmin;
+    }
+
+    .tideInfoHeader {
+        font-size: 3vmin;
+    }
+    .tideInfoCategories, .tideInfoData {
+        font-size: 3vmin;
+    }
+
+    .tempPicImage{
+        width: 65%;
+    }
+    .tempBox{
+        height: 100%;
+        width: 16%;
+    }
+    .tempPic{
+        display: flex;
+        justify-content: center;
+        height: 45%;
+
+    }
+    .weatherInfoContainer {
+        height: 25%;
+
+    }
+    .mainTitle .beachName{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .mainTitle .beachLocation {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 3vmin;
+    }
+
+    .infoContainer {
+        flex-direction: row;
+        height: 55%;
+    }
+
+    .tideInfoContainer {
+        width: 50%;
+        height: 100%;
+    }
+
+    .tideInfoDataContainer {
+        height: 90%;
+    }
+
+    .pictureInfoContainer {
+        height: 90%;
+        width: 50%;
+    }
 
 }
+
+
 @media screen and (min-width: 1025px) and (max-width: 1320px) {
     .flyOff{
         position: absolute;
@@ -1434,7 +1542,7 @@ h2 {
     }
 
     /*.tempPic {*/
-        /*width: 70%;*/
+    /*width: 70%;*/
     /*}*/
 
     .infoContainer{
@@ -1506,6 +1614,7 @@ h2 {
     }
 
 }
+
 
 
 
